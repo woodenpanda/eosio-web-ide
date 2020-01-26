@@ -1,9 +1,9 @@
 #include <eosio/eosio.hpp>
-
+//test
 // Message table
 struct [[eosio::table("message"), eosio::contract("talk")]] message {
     uint64_t    id       = {}; // Non-0
-    uint64_t    reply_to = {}; // Non-0 if this is a reply
+    uint64_t    reply_to = {}; // Non-0 if this is a reply 
     eosio::name user     = {};
     std::string content  = {};
 
