@@ -11,12 +11,13 @@
       {
          "label": "build",
          "type": "shell",
-         "command": "sh build.sh",
+         "command": "sh build.sh"
       },
       {
          "label": "init",
          "type": "shell",
          "command": "sh init.sh",
+         "problemMatcher": []
       }
    ]
 }

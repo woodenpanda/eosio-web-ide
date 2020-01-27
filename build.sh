@@ -1,6 +1,2 @@
-cleos push action talk post '[1006, 2000, bob, "Replying to your post"]' -p bob
-
-cleos push action talk post '[1008, 2000, bob, "Replying to your post"]' -p bob
-
-cleos push action talk post '[1007, 2000, bob, "Replying to your post"]' -p bob
-
+eosio-cpp -abigen -I ./astatechanel/include -R ./resource -contract astatechanel -o ./astatechanel/astatechanel.wasm astatechanel/src/astatechanel.cpp
+cleos set contract astatechanel astatechanel -p astatechanel@active
